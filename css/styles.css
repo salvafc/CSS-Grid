@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Geomanist';
+  src:  url('Geomanist-Regular.otf') format('otf'),
+        url('Geomanist-Medium.otf') format('otf');
+        url('Geomanist-Book.otf') format('otf');
+}
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  background-color: red;
+  color: #1B2733;
+  font-family: 'Geomanist', Arial, sans-serif;
+  font-size: 1rem;
+
+}
